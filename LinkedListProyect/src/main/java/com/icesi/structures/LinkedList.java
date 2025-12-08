@@ -1,6 +1,6 @@
 package com.icesi.structures;
 
-public class LinkedList<T> {
+public class LinkedList<T extends Comparable<T>> {
     private Node<T> first;
     private Node<T> last;
     private int size;
